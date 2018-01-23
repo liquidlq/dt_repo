@@ -1,0 +1,12 @@
+TARGETS = nfs-kernel-server tftpd-hpa urandom sendsigs rsyslog umountnfs.sh nfs-common rpcbind hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: nfs-kernel-server tftpd-hpa
+rsyslog: tftpd-hpa sendsigs
+umountnfs.sh: nfs-kernel-server sendsigs tftpd-hpa rsyslog
+nfs-common: nfs-kernel-server umountnfs.sh
+rpcbind: nfs-kernel-server umountnfs.sh
+hwclock.sh: nfs-common nfs-kernel-server rsyslog
+networking: umountnfs.sh tftpd-hpa rpcbind
+umountfs: urandom networking hwclock.sh nfs-kernel-server umountnfs.sh tftpd-hpa rpcbind
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

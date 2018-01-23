@@ -1,0 +1,8 @@
+TARGETS = nfs-kernel-server rsyslog killprocs bootlogs motd tftpd-hpa single cron ssh rc.local rmnologin
+INTERACTIVE =
+tftpd-hpa: rsyslog
+single: killprocs bootlogs motd
+cron: rsyslog
+ssh: rsyslog
+rc.local: nfs-kernel-server tftpd-hpa rsyslog bootlogs motd cron ssh
+rmnologin: nfs-kernel-server tftpd-hpa rsyslog bootlogs motd cron ssh

@@ -1,0 +1,33 @@
+
+Start-Date: 2018-01-19  03:53:07
+Commandline: /usr/bin/apt-get install tftp-hpa
+Install: tftp-hpa:armhf (5.2+20140608-3)
+End-Date: 2018-01-19  03:53:09
+
+Start-Date: 2018-01-19  03:53:25
+Commandline: /usr/bin/apt-get install tftpd-hpa
+Install: libwrap0:armhf (7.6.q-25, automatic), tftpd-hpa:armhf (5.2+20140608-3), tcpd:armhf (7.6.q-25, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-01-19  03:53:34
+
+Start-Date: 2018-01-19  04:15:45
+Commandline: /usr/bin/apt-get install nfs-kernel-server
+Install: libgssapi-krb5-2:armhf (1.12.1+dfsg-19+deb8u4, automatic), libpython2.7-minimal:armhf (2.7.9-2+deb8u1, automatic), libkrb5-3:armhf (1.12.1+dfsg-19+deb8u4, automatic), libsasl2-2:armhf (2.1.26.dfsg1-13+deb8u1, automatic), krb5-locales:armhf (1.12.1+dfsg-19+deb8u4, automatic), libk5crypto3:armhf (1.12.1+dfsg-19+deb8u4, automatic), python2.7:armhf (2.7.9-2+deb8u1, automatic), libpython2.7-stdlib:armhf (2.7.9-2+deb8u1, automatic), libkeyutils1:armhf (1.5.9-5+b1, automatic), libmagic1:armhf (5.22+15-2+deb8u3, automatic), libtirpc1:armhf (0.2.5-1+deb8u1, automatic), python-minimal:armhf (2.7.9-1, automatic), libsasl2-modules-db:armhf (2.1.26.dfsg1-13+deb8u1, automatic), file:armhf (5.22+15-2+deb8u3, automatic), rpcbind:armhf (0.2.1-6+deb8u2, automatic), libkrb5support0:armhf (1.12.1+dfsg-19+deb8u4, automatic), libpython-stdlib:armhf (2.7.9-1, automatic), mime-support:armhf (3.58, automatic), libevent-2.0-5:armhf (2.0.21-stable-2+deb8u1, automatic), nfs-common:armhf (1.2.8-9, automatic), libldap-2.4-2:armhf (2.4.40+dfsg-1+deb8u3, automatic), libsasl2-modules:armhf (2.1.26.dfsg1-13+deb8u1, automatic), libexpat1:armhf (2.1.0-6+deb8u4, automatic), libsqlite3-0:armhf (3.8.7.1-1+deb8u2, automatic), python2.7-minimal:armhf (2.7.9-2+deb8u1, automatic), ucf:armhf (3.0030, automatic), python:armhf (2.7.9-1, automatic), libnfsidmap2:armhf (0.25-5, automatic), nfs-kernel-server:armhf (1.2.8-9)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-01-19  04:16:50
+
+Start-Date: 2018-01-19  04:17:51
+Commandline: /usr/bin/apt-get install tftpd-hpa
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-01-19  04:17:55
+
+Start-Date: 2018-01-19  04:38:50
+Commandline: /usr/bin/apt-get install nfs-kernel-server
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-01-19  04:38:53
+
+Start-Date: 2018-01-19  12:55:52
+Commandline: /usr/bin/apt-get install openssh-server
+Install: ncurses-term:armhf (5.9+20140913-1+deb8u2, automatic), libx11-data:armhf (1.6.2-3+deb8u1, automatic), openssh-sftp-server:armhf (6.7p1-5+deb8u4, automatic), libxmuu1:armhf (1.1.2-1, automatic), openssh-server:armhf (6.7p1-5+deb8u4), libbsd0:armhf (0.7.0-2, automatic), libxdmcp6:armhf (1.1.1-1+b1, automatic), libx11-6:armhf (1.6.2-3+deb8u1, automatic), libedit2:armhf (3.1-20140620-2, automatic), openssh-client:armhf (6.7p1-5+deb8u4, automatic), libxext6:armhf (1.3.3-1, automatic), libxau6:armhf (1.0.8-1, automatic), libxcb1:armhf (1.10-3+b1, automatic), xauth:armhf (1.0.9-1, automatic)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2018-01-19  12:56:36

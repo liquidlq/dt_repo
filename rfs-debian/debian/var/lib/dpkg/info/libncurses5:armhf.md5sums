@@ -1,0 +1,4 @@
+f1671fef6cc6a275a67d85c265eb5176  lib/arm-linux-gnueabihf/libncurses.so.5.9
+4d33f28992486fb8f5467da4f3fd4f24  usr/lib/arm-linux-gnueabihf/libform.so.5.9
+3ae505bc6ef8b0871c893f1bedf981a0  usr/lib/arm-linux-gnueabihf/libmenu.so.5.9
+bb0a3845df4a540feaf398b4bf233ffc  usr/lib/arm-linux-gnueabihf/libpanel.so.5.9

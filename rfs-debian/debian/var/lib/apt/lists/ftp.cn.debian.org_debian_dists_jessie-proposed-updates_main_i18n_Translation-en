@@ -1,0 +1,2746 @@
+Package: dns-root-data
+Description-md5: bbcb2dc96efef2350f3f0122e975cf90
+Description-en: DNS root data including root zone and DNSSEC key
+ This package contains various root zone related data as published
+ by IANA to be used by various DNS software as a common source
+ of DNS root zone data, namely:
+ .
+  * Root Hints (root.hints)
+  * Root Trust Anchors (root.key, root.ds)
+
+Package: erlang
+Description-md5: 444ffdeb0f4a95a7e36f20d18ac794cb
+Description-en: Concurrent, real-time, distributed functional language
+ Open Source Erlang is a functional programming language designed at
+ the Ericsson Computer Science Laboratory.
+ .
+ Some of Erlang main features are:
+  * Clear declarative syntax and is largely free from side-effects;
+  * Built-in support for real-time, concurrent and distributed programming;
+  * Designed for development of robust and continuously operated programs;
+  * Dynamic code replacement at runtime.
+ .
+ The Erlang distribution also includes OTP (Open Telecom Platform) which
+ provides a rich set of libraries and applications.
+ .
+ This package is a dummy package which will install Erlang/OTP runtime,
+ applications, sources, code examples and the Erlang editing mode for Emacs.
+
+Package: erlang-asn1
+Description-md5: ee4d0b49672ea14e8a224f00c393a8c6
+Description-en: Erlang/OTP modules for ASN.1 support
+ The Asn1 application contains modules with compile-time and run-time
+ support for ASN.1 in Erlang/OTP.
+
+Package: erlang-base
+Description-md5: 34f1d00a77372c45835007b286d6b266
+Description-en: Erlang/OTP virtual machine and base applications
+ This package contains the Erlang/OTP runtime implementation, which is
+ configured and built without HiPE support (compiles to byte-code only),
+ and minimal set of Erlang applications:
+  compiler - compiles Erlang code to byte-code;
+  erts - the Erlang runtime system application;
+  kernel - code necessary to run the Erlang runtime system itself;
+  ose - code for Enea OSE operating system;
+  sasl - the system architecture support libraries application;
+  stdlib - modules for manipulating lists, strings, files etc.
+
+Package: erlang-base-hipe
+Description-md5: f284d6d86968208e4f53d14fca4279b8
+Description-en: Erlang/OTP HiPE enabled virtual machine and base applications
+ This package contains the Erlang/OTP runtime implementation, which is
+ configured and built with HiPE support (allows compiling to native code),
+ and minimal set of Erlang applications:
+  compiler - compiles Erlang code to byte-code;
+  erts - the Erlang runtime system application;
+  kernel - code necessary to run the Erlang runtime system itself;
+  ose - code for Enea OSE operating system;
+  sasl - the system architecture support libraries application;
+  stdlib - modules for manipulating lists, strings, files etc.
+
+Package: erlang-common-test
+Description-md5: 7b279934204d2fda3ee05f2ba5e002bb
+Description-en: Erlang/OTP application for automated testing
+ Common Test is a portable application for automated testing. It is
+ suitable for black-box testing of target systems of any type (i.e.
+ not necessarily implemented in Erlang), as well as for white-box
+ testing of Erlang/OTP programs. Black-box testing is performed via
+ standard interfaces (such as SNMP, HTTP, Corba, Telnet, etc) and,
+ if required, via user specific interfaces (often called test ports).
+ White-box testing of Erlang/OTP programs is easily accomplished by
+ calling the target API functions directly from the test case functions.
+ Common Test also integrates usage of the OTP cover tool for code
+ coverage analysis of Erlang/OTP programs.
+
+Package: erlang-corba
+Description-md5: f04931348634fb479d846559ba5c94f5
+Description-en: Erlang/OTP applications for CORBA support
+ The Orber application is an Erlang implementation of a CORBA
+ Object Request Broker.
+ .
+ The cosEvent application is an Erlang implementation of a CORBA
+ Service CosEvent.
+ .
+ The cosEventDomain application is an Erlang implementation of a
+ CORBA Service CosEventDomainAdmin.
+ .
+ The cosFileTransfer Application is an Erlang implementation of
+ the OMG CORBA File Transfer Service.
+ .
+ The cosNotification application is an Erlang implementation of
+ the OMG CORBA Notification Service.
+ .
+ The cosProperty Application is an Erlang implementation of the
+ OMG CORBA Property Service.
+ .
+ The cosTime application is an Erlang implementation of the OMG
+ CORBA Time and TimerEvent Services.
+ .
+ The cosTransactions application is an Erlang implementation of
+ the OMG CORBA Transaction Service.
+
+Package: erlang-crypto
+Description-md5: 6d6a5e48deb89695b61d6380e84e7e95
+Description-en: Erlang/OTP cryptographic modules
+ The Crypto Application provides functions for computation of message
+ digests, encryption and decryption functions. It uses OpenSSL for
+ actual calculations.
+
+Package: erlang-dbg
+Description-md5: e54a8e24d35ee5c70df6691a7e605b6c
+Description-en: Erlang/OTP symbol files
+ The files containing debug symbols for binaries and libraries in Erlang
+ to help in debugging applications build with them. You will not normally
+ need to install this package.
+
+Package: erlang-debugger
+Description-md5: f2a130c9024aae5b814aecc511de1716
+Description-en: Erlang/OTP application for debugging and testing
+ Debugger is a graphical tool which can be used for debugging and
+ testing of Erlang programs. For example, breakpoints can be set,
+ code can be single stepped and variable values can be inspected
+ and modified.
+
+Package: erlang-dev
+Description-md5: 023eca40c938a81e31cb3d07fa28976e
+Description-en: Erlang/OTP development libraries and headers
+ The files for application development in Erlang. They include headers for
+ all applications included into Erlang/OTP distribution and C interface
+ libraries.
+
+Package: erlang-dialyzer
+Description-md5: 64f3bbfb833c0a9582717bebe4d36557
+Description-en: Erlang/OTP discrepancy analyzer application
+ Dialyzer is a static analysis tool that identifies software
+ discrepancies such as type errors, unreachable code, unnecessary
+ tests etc. in single Erlang modules or entire (sets of) applications.
+
+Package: erlang-diameter
+Description-md5: 42a0b30fc825ef17d696ef8100828e2c
+Description-en: Erlang/OTP implementation of RFC 6733 protocol
+ Interface with which a user creates a service that sends and receives
+ messages using the Diameter protocol as defined in RFC 6733.
+
+Package: erlang-doc
+Description-md5: d151a4898d82d984d031d1b1e1366eea
+Description-en: Erlang/OTP HTML/PDF documentation
+ Documentation for the Erlang programming language and OTP
+ library in HTML and PDF formats.
+
+Package: erlang-edoc
+Description-md5: a3f918489b4ca4cd8e396c420e04b999
+Description-en: Erlang/OTP module for generating documentation
+ EDoc is the Erlang program documentation generator. Inspired by the
+ Javadoc tool for the Java programming language, EDoc is adapted to
+ the conventions of the Erlang world.
+
+Package: erlang-eldap
+Description-md5: 84192ee472dc7261422d95bd91233523
+Description-en: Erlang/OTP LDAP library
+ Eldap is a module which provides a client API to the Lightweight
+ Directory Access Protocol (LDAP).
+
+Package: erlang-erl-docgen
+Description-md5: 5f30cb8c9d86134a3ac21b268d81d997
+Description-en: Erlang/OTP documentation stylesheets
+ The erl_docgen package includes XSLT stylesheets and document type
+ definitions used for Erlang/OTP documentation. They allow to
+ transform documentation to manpage, HTML, and PDF formats.
+
+Package: erlang-et
+Description-md5: 642600ae4ee7f6069393fa0af8f50037
+Description-en: Erlang/OTP event tracer application
+ The Event Tracer (ET) uses the built-in trace mechanism in Erlang
+ and provides tools for collecting and examining trace data using GUI.
+
+Package: erlang-eunit
+Description-md5: 559493af07c14e28bf56267ccbd871a0
+Description-en: Erlang/OTP module for unit testing
+ The EUnit application contains modules with support for unit testing.
+
+Package: erlang-examples
+Description-md5: 7fd4d1d18889e4d971a860ea2e41b36b
+Description-en: Erlang/OTP application examples
+ The examples, included in the Erlang/OTP system distribution.
+
+Package: erlang-gs
+Description-md5: e52ca1e4bb6bd044a046027c91209d06
+Description-en: Erlang/OTP graphics system
+ The Graphics System application, GS, is a library of routines for
+ writing graphical user interfaces. Programs written using GS work
+ on all Erlang platforms and do not depend upon the underlying
+ windowing system. It uses Tk widgets for visualization.
+
+Package: erlang-ic
+Description-md5: e0dcaf593d7a257b63b65fed1429bb17
+Description-en: Erlang/OTP IDL compiler
+ The IC application is an Erlang implementation of an IDL (CORBA Interface
+ Definition Language) compiler. Depending on the choice of back-end the
+ code will map to Erlang, C, or Java. The compiler generates client stubs
+ and server skeletons.
+
+Package: erlang-ic-java
+Description-md5: 6041f9ae991cf1323405ddd2ff190043
+Description-en: Erlang/OTP IDL compiler (Java classes)
+ The IC application is an Erlang implementation of an IDL (CORBA Interface
+ Definition Language) compiler. Depending on the choice of back-end the
+ code will map to Erlang, C, or Java. The compiler generates client stubs
+ and server skeletons.
+ .
+ This package includes classes for Java-Erlang communication.
+
+Package: erlang-inets
+Description-md5: 57f5c22cbb30db3a06eef4cd25d47c34
+Description-en: Erlang/OTP Internet clients and servers
+ Inets is a container for Internet clients and servers. Currently
+ a FTP client, a HTTP client and server, and a TFTP client and
+ server are provided in Inets.
+
+Package: erlang-jinterface
+Description-md5: 6e3651f89f83062d26177557bb00ae3d
+Description-en: Java communication tool to Erlang
+ Jinterface Java package contains java classes, which help you
+ integrate programs written in Java with Erlang.
+
+Package: erlang-manpages
+Description-md5: cdc7cc48bad4a582e48a14f54e037734
+Description-en: Erlang/OTP manual pages
+ Documentation for the Erlang programming language in `man' format. This
+ documentation can be read using the command `erl -man mod', where `mod'
+ is the name of the module you want documentation on.
+ .
+ This package contains all Erlang/OTP manual pages from sections other
+ than 1. They document Erlang/OTP modules, config files and applications.
+
+Package: erlang-megaco
+Description-md5: 690fb9316fd0c68e524cdd808aa967b2
+Description-en: Erlang/OTP implementation of Megaco/H.248 protocol
+ The Megaco application is a framework for building applications on
+ top of the Megaco/H.248 protocol.
+
+Package: erlang-mnesia
+Description-md5: 48d2214e21e1f80fbec2f00309f8406f
+Description-en: Erlang/OTP distributed relational/object hybrid database
+ Mnesia is a distributed Database Management System (DBMS), appropriate
+ for telecommunications applications and other Erlang applications
+ which require continuous operation and exhibit soft real-time properties.
+
+Package: erlang-mode
+Description-md5: 458834bc6eb6df394adfd308669076f9
+Description-en: Erlang major editing mode for Emacs
+ This package includes the mode for editing Erlang programs in GNU Emacs.
+ It is provided with the default Erlang/OTP distribution. It supports
+ sophisticated indentation, syntax highlighting, electric commands,
+ module name verification, comments, skeletons, tags etc.
+
+Package: erlang-nox
+Description-md5: 7a788b312a01454a03fd4262bf827fcd
+Description-en: Erlang/OTP applications that don't require X Window System
+ This package is a dummy package which will install all Erlang/OTP
+ applications which do not require X Window System to run.
+
+Package: erlang-observer
+Description-md5: 562a137fe6357e7dc7f07faca76776a1
+Description-en: Erlang/OTP application for investigating distributed systems
+ The OBSERVER application contains tools for tracing and investigation of
+ distributed systems. They include etop - a tool for presenting information
+ about Erlang processes, and crashdump_viewer - a HTML based tool for
+ browsing Erlang crashdumps.
+
+Package: erlang-odbc
+Description-md5: 8fb16205445a0b6f3190216580f2428d
+Description-en: Erlang/OTP interface to SQL databases
+ The Erlang ODBC application provides an interface for accessing
+ relational SQL databases from Erlang.
+
+Package: erlang-os-mon
+Description-md5: f8627add1b4145778041a638d379dc3d
+Description-en: Erlang/OTP operating system monitor
+ The operating system monitor, OS_Mon, provides services for
+ monitoring CPU load, disk usage, memory usage and OS messages.
+
+Package: erlang-parsetools
+Description-md5: 3e51e2f8676cdc2b45f2ac3d74b79580
+Description-en: Erlang/OTP parsing tools
+ The Parsetools application contains utilities for parsing. Currently,
+ it includes yecc module. Yecc is an LALR-1 parser generator for Erlang,
+ similar to yacc. Yecc takes a BNF grammar definition as input, and
+ produces Erlang code for a parser as output.
+
+Package: erlang-percept
+Description-md5: c42515507b812528e2f0945482c60c14
+Description-en: Erlang/OTP concurrency profiling tool
+ Percept is a tool which visualizes application level concurrency and
+ helps to identify concurrency bottlenecks.
+
+Package: erlang-public-key
+Description-md5: e10bb8263805ad3875bec38b249b88db
+Description-en: Erlang/OTP public key infrastructure
+ Provides functions to handle public key infrastructure from RFC 3280
+ (X.509 certificates) and some parts of the PKCS-standard.
+
+Package: erlang-reltool
+Description-md5: c21e40c68ee2fb8795e6e8d59da14957
+Description-en: Erlang/OTP release management tool
+ Reltool is a release management tool. It analyses a given Erlang/OTP
+ installation and determines dependencies between applications. The
+ graphical frontend depicts the dependencies and enables interactive
+ customization of a target system. The backend provides a batch
+ interface for generation of customized target systems.
+
+Package: erlang-runtime-tools
+Description-md5: a0448be753203ae3013367e215bb963c
+Description-en: Erlang/OTP runtime tracing/debugging tools
+ Runtime_Tools provides low-footprint tracing/debugging tools suitable
+ for inclusion in a production system.
+
+Package: erlang-snmp
+Description-md5: dfb924f9e0e51a8acfd28878335946b5
+Description-en: Erlang/OTP SNMP applications
+ A multilingual Simple Network Management Protocol application features
+ an Extensible Agent, simple manager, a MIB compiler and facilities for
+ implementing SNMP MIBs etc.
+ .
+ The OTP_Mibs application provides an SNMP management information base
+ for Erlang nodes.
+
+Package: erlang-src
+Description-md5: 6a6a52b3019a4fbd9d35a8cde25c0477
+Description-en: Erlang/OTP applications sources
+ Erlang sources for all the applications in the Erlang/OTP system.
+ They are useful for educational purpose and as a base for creating
+ embedded systems.
+
+Package: erlang-ssh
+Description-md5: 2ab50c8973bb765ccc1c37f7e496762f
+Description-en: Erlang/OTP implementation of SSH protocol
+ The SSH application is an erlang implementation of the secure
+ shell protocol.
+
+Package: erlang-ssl
+Description-md5: 15c091acf332c7d47a15da19885fdc6b
+Description-en: Erlang/OTP implementation of SSL
+ The SSL application provides secure communication over sockets.
+
+Package: erlang-syntax-tools
+Description-md5: 734d87e62fdb69e61b39974407f3d15f
+Description-en: Erlang/OTP modules for handling abstract Erlang syntax trees
+ Syntax_Tools contains modules for handling abstract Erlang syntax
+ trees in a way that is compatible with the "parse trees" of the
+ STDLIB module erl_parse, together with utilities for reading source
+ files in unusual ways and pretty-printing syntax trees. Also it
+ includes a module merger and renamer called Igor, as well as an
+ automatic code-cleaner.
+
+Package: erlang-test-server
+Description-md5: a9b15ac1a3073e0f386c6cddcb7facea
+Description-en: Erlang/OTP server for automated application testing
+ Test Server is a portable test server for automated application testing.
+ The server can run test suites on local or remote targets and log
+ progress and results to HTML pages. The main purpose of Test Server
+ is to act as engine inside customized test tools. A callback interface
+ for such framework applications is provided.
+
+Package: erlang-tools
+Description-md5: 4285755cbac612fc7f4013b85cae332f
+Description-en: Erlang/OTP various tools
+ The Tools application contains a number of stand-alone tools, which are
+ useful when developing Erlang programs.
+ .
+  cover - A coverage analysis tool for Erlang.
+  cprof - A profiling tool that shows how many times each function
+    is called. Uses a kind of local call trace breakpoints containing
+    counters to achieve very low runtime performance degradation.
+  eprof - A time profiling tool; measures how time is used in Erlang
+    programs. Predecessor of fprof (see below).
+  fprof - Another Erlang profiler; measures how time is used in Erlang
+    programs. Uses trace to file to minimize runtime performance
+    impact, and displays time for calling and called functions.
+  instrument - Utility functions for obtaining and analyzing resource
+    usage in an instrumented Erlang runtime system.
+  make - A make utility for Erlang similar to UNIX make.
+  tags - A tool for generating Emacs TAGS files from Erlang source
+    files.
+  xref - A cross reference tool. Can be used to check dependencies
+    between functions, modules, applications and releases.
+
+Package: erlang-typer
+Description-md5: 5602b81e7cab6e19646037b96ac97e72
+Description-en: Erlang/OTP code type annotator
+ TypEr is a tool that displays and automatically inserts type annotations
+ in Erlang code. It uses Dialyzer to infer variable types.
+
+Package: erlang-webtool
+Description-md5: b8b0e4887cb074b9d62eb4be3acf0a19
+Description-en: Erlang/OTP helper for web-based tools
+ WebTool provides an easy way to use web-based tools with Erlang/OTP.
+ It configures and starts a web server as well as all available tools.
+
+Package: erlang-wx
+Description-md5: 33737e962cd597aa89c0246f6ed16263
+Description-en: Erlang/OTP bindings to wxWidgets
+ The wxErlang application is an API for writing graphical user
+ interfaces with wxWidgets.
+
+Package: erlang-x11
+Description-md5: 243a50ebbcb77b74596e0d11eccda5c3
+Description-en: Erlang/OTP applications that require X Window System
+ This package is a dummy package which will install all Erlang/OTP
+ applications which use graphical interface and therefore require
+ X Window System to run.
+
+Package: erlang-xmerl
+Description-md5: 222136c221feb614758c204affd11214
+Description-en: Erlang/OTP XML tools
+ The xmerl application contains modules for processing XML.
+
+Package: firefox-esr
+Description-md5: 88ee196fd829d9218a763b4d498a6f6a
+Description-en: Mozilla Firefox web browser - Extended Support Release (ESR)
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+
+Package: firefox-esr-dbg
+Description-md5: e720e6c6ce815b9d20ee4d4bc203e4e5
+Description-en: Debugging symbols for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the debugging symbols for firefox-esr.
+
+Package: firefox-esr-dev
+Description-md5: b59e9e72c0decf691b6c3e04d81b9ca8
+Description-en: Development files for the Gecko engine library
+ This library provides an  API for XUL applications and Gecko embedders.
+ The Gecko engine is the core of the mozilla.org applications such as
+ Firefox, Thunderbird or SeaMonkey.
+ .
+ Gecko features include XPCOM, networking, DOM editing and transaction
+ support, XBL, XUL, SVG, XSLT, XML Extras (XMLHttpRequest and DOMParser),
+ Web Services (SOAP), accessibility support, IPC services, gtkmozembed, etc.
+ .
+ Install this package if you wish to embed the Gecko engine in your
+ program or want to develop XPCOM components.
+ .
+ This package also provides the Xulrunner Software Development Kit in the
+ same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
+
+Package: firefox-esr-l10n-ach
+Description-md5: d5188b984c4f0df3501f954a193b9bcb
+Description-en: Acoli language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Acoli.
+
+Package: firefox-esr-l10n-af
+Description-md5: 5b77c93a9812c0c9c016530c0d0e3034
+Description-en: Afrikaans language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Afrikaans.
+
+Package: firefox-esr-l10n-all
+Description-md5: 0510a1fd50726dce346379d22d5ac62e
+Description-en: All language packages for Firefox ESR (meta)
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This is a metapackage depending on all available localizations of Firefox ESR.
+
+Package: firefox-esr-l10n-an
+Description-md5: 9924a97ec612d6fcd54f0610a7a3e043
+Description-en: Aragonese language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Aragonese.
+
+Package: firefox-esr-l10n-ar
+Description-md5: 187769fc81d734cf856ac016e6f40170
+Description-en: Arabic language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Arabic.
+
+Package: firefox-esr-l10n-as
+Description-md5: 7674ef31cf34e2fb635f6c4fee98a4c6
+Description-en: Assamese language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Assamese.
+
+Package: firefox-esr-l10n-ast
+Description-md5: 480a52dafb8192cb706b3bf179b9862a
+Description-en: Asturian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Asturian.
+
+Package: firefox-esr-l10n-az
+Description-md5: 8606a59b109c8f1b54cab83ec2ca635a
+Description-en: Azerbaijani language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Azerbaijani.
+
+Package: firefox-esr-l10n-bg
+Description-md5: e9dc3372b630d540f7dbb29e05efaa94
+Description-en: Bulgarian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Bulgarian.
+
+Package: firefox-esr-l10n-bn-bd
+Description-md5: 1c66f291083fed9190de6cadc2b9eee9
+Description-en: Bengali (Bangladesh) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Bengali (Bangladesh).
+
+Package: firefox-esr-l10n-bn-in
+Description-md5: 5744d663bb741cb27f83c24f715f29f9
+Description-en: Bengali (India) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Bengali (India).
+
+Package: firefox-esr-l10n-br
+Description-md5: bb7780db4d6867db8bb1444714267939
+Description-en: Breton language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Breton.
+
+Package: firefox-esr-l10n-bs
+Description-md5: 5fea1a4ed52425b2682a4a722208ce6a
+Description-en: Bosnian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Bosnian.
+
+Package: firefox-esr-l10n-ca
+Description-md5: 39fc7a1d4b9f5fb5d75d2c85f3fe18f8
+Description-en: Catalan language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Catalan.
+
+Package: firefox-esr-l10n-cak
+Description-md5: b7d60abe64a35eb3f946d5cec1befbfe
+Description-en: Kaqchikel language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Kaqchikel.
+
+Package: firefox-esr-l10n-cs
+Description-md5: 0c1f1b9260776612632c42839d46ae61
+Description-en: Czech language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Czech.
+
+Package: firefox-esr-l10n-cy
+Description-md5: a0b97541cfb2909dde4a6826e704de5c
+Description-en: Welsh language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Welsh.
+
+Package: firefox-esr-l10n-da
+Description-md5: b9a514cd98a26589131b97e42b7c29a6
+Description-en: Danish language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Danish.
+
+Package: firefox-esr-l10n-de
+Description-md5: 00c26bf015520152a19c68eb31a240c5
+Description-en: German language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in German.
+
+Package: firefox-esr-l10n-dsb
+Description-md5: 762244752cd248a402ca1a08dc2f5fbc
+Description-en: Lower Sorbian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Lower Sorbian.
+
+Package: firefox-esr-l10n-el
+Description-md5: f29c652c5733c8f7b9f1f5fcf5272678
+Description-en: Modern Greek language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Modern Greek.
+
+Package: firefox-esr-l10n-en-gb
+Description-md5: fae69f711dcd022c1331ec34c8a16f4e
+Description-en: English (United Kingdom) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in English (United Kingdom).
+
+Package: firefox-esr-l10n-en-za
+Description-md5: b5c104c8ef5647257658f30a23413328
+Description-en: English (South Africa) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in English (South Africa).
+
+Package: firefox-esr-l10n-eo
+Description-md5: 945baf829a8107d2a724afa283d26117
+Description-en: Esperanto language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Esperanto.
+
+Package: firefox-esr-l10n-es-ar
+Description-md5: 6326584d7e47d99429a947e9ae2c0fdf
+Description-en: Spanish (Argentina) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Argentina).
+
+Package: firefox-esr-l10n-es-cl
+Description-md5: 7ec0e40e29f940158ac73f60d382dd9f
+Description-en: Spanish (Chile) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Chile).
+
+Package: firefox-esr-l10n-es-es
+Description-md5: 223eafc61a519e57a33800519688b493
+Description-en: Spanish (Spain) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Spain).
+
+Package: firefox-esr-l10n-es-mx
+Description-md5: aec36965ba71f3207f7024669d2a71aa
+Description-en: Spanish (Mexico) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Spanish (Mexico).
+
+Package: firefox-esr-l10n-et
+Description-md5: acae80d2ec31f72159f0cab7b8cd1af3
+Description-en: Estonian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Estonian.
+
+Package: firefox-esr-l10n-eu
+Description-md5: 7b91ccfc8995908ef00e895e9220949e
+Description-en: Basque language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Basque.
+
+Package: firefox-esr-l10n-fa
+Description-md5: b6f751f17ccf16519d100f1e8f0117fb
+Description-en: Persian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Persian.
+
+Package: firefox-esr-l10n-ff
+Description-md5: dc691e9c1208dc2c4c090505e89add2d
+Description-en: Fulah language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Fulah.
+
+Package: firefox-esr-l10n-fi
+Description-md5: e2ab3eebf772ebeed27528fef8943bc2
+Description-en: Finnish language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Finnish.
+
+Package: firefox-esr-l10n-fr
+Description-md5: 2853e6beeb5377d82897890c50794bb2
+Description-en: French language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in French.
+
+Package: firefox-esr-l10n-fy-nl
+Description-md5: bc561c21dd7715b4cc81394b2b2959d4
+Description-en: Western Frisian (Netherlands) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Western Frisian (Netherlands).
+
+Package: firefox-esr-l10n-ga-ie
+Description-md5: df80077e094c5c407d48346980fdda38
+Description-en: Irish (Ireland) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Irish (Ireland).
+
+Package: firefox-esr-l10n-gd
+Description-md5: b29b5eb94111e47714327298f150d08b
+Description-en: Scottish Gaelic language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Scottish Gaelic.
+
+Package: firefox-esr-l10n-gl
+Description-md5: 3953015101a54301613ee48a7baa1126
+Description-en: Galician language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Galician.
+
+Package: firefox-esr-l10n-gn
+Description-md5: 219b0f78c77d54e90b45773da16da43a
+Description-en: Guarani language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Guarani.
+
+Package: firefox-esr-l10n-gu-in
+Description-md5: 85fa76ca56a724a05142d2b8b6f4503a
+Description-en: Gujarati (India) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Gujarati (India).
+
+Package: firefox-esr-l10n-he
+Description-md5: 0d6de331cc5d85a68cf2df33cda542b1
+Description-en: Hebrew language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Hebrew.
+
+Package: firefox-esr-l10n-hi-in
+Description-md5: 07c46cb13c9b2cfea74560ac1fd4cab9
+Description-en: Hindi (India) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Hindi (India).
+
+Package: firefox-esr-l10n-hr
+Description-md5: ee29b6625469a2c68272f051073e1b5d
+Description-en: Croatian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Croatian.
+
+Package: firefox-esr-l10n-hsb
+Description-md5: 49e72d2033713197718ea2d7fc0f43dd
+Description-en: Upper Sorbian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Upper Sorbian.
+
+Package: firefox-esr-l10n-hu
+Description-md5: 77917341475a87753af784dc7f1a3483
+Description-en: Hungarian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Hungarian.
+
+Package: firefox-esr-l10n-hy-am
+Description-md5: 8337932972f9eaa518ed74a7cb42d4c3
+Description-en: Armenian (Armenia) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Armenian (Armenia).
+
+Package: firefox-esr-l10n-id
+Description-md5: b83dbfb0b8657df54694267db0c197e1
+Description-en: Indonesian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Indonesian.
+
+Package: firefox-esr-l10n-is
+Description-md5: 6f17be2d462a0b0f3fcf8cc9b2099f13
+Description-en: Icelandic language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Icelandic.
+
+Package: firefox-esr-l10n-it
+Description-md5: 1eb259ab89190e23c9a2d6c6bbcaa673
+Description-en: Italian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Italian.
+
+Package: firefox-esr-l10n-ja
+Description-md5: dfe98a7a06a28d3c03fb211e550013f3
+Description-en: Japanese language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Japanese.
+
+Package: firefox-esr-l10n-ka
+Description-md5: 12c4723b6cbdd691b09e976cf2b91e83
+Description-en: Georgian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Georgian.
+
+Package: firefox-esr-l10n-kab
+Description-md5: d419dae93d1914b3fbb042e044917ec0
+Description-en: Kabyle language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Kabyle.
+
+Package: firefox-esr-l10n-kk
+Description-md5: f525dce69931dff3a292fa8f08eaf77f
+Description-en: Kazakh language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Kazakh.
+
+Package: firefox-esr-l10n-km
+Description-md5: 78dff3772840e7626fa8bb3ac8019dd9
+Description-en: Central Khmer language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Central Khmer.
+
+Package: firefox-esr-l10n-kn
+Description-md5: dd6f9f89e71aa55eee3f58ce5e18bf26
+Description-en: Kannada language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Kannada.
+
+Package: firefox-esr-l10n-ko
+Description-md5: 74d15a656cc38e02bbca0f8879cbd4ac
+Description-en: Korean language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Korean.
+
+Package: firefox-esr-l10n-lij
+Description-md5: 1f4d901ea4a38b03bb14c47f27a45c91
+Description-en: Ligurian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Ligurian.
+
+Package: firefox-esr-l10n-lt
+Description-md5: d3b5577aa40f3c5b3b5e7a966f2ce374
+Description-en: Lithuanian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Lithuanian.
+
+Package: firefox-esr-l10n-lv
+Description-md5: fe4207dff81207ebdae8b76c36b88dba
+Description-en: Latvian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Latvian.
+
+Package: firefox-esr-l10n-mai
+Description-md5: 62fc4105bbcaaf1fe65a893a6ce90a6a
+Description-en: Maithili language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Maithili.
+
+Package: firefox-esr-l10n-mk
+Description-md5: 7819b44418c3cdeec4326d529a046aeb
+Description-en: Macedonian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Macedonian.
+
+Package: firefox-esr-l10n-ml
+Description-md5: fc49f6c7598cfbff5c7ede61743a56bc
+Description-en: Malayalam language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Malayalam.
+
+Package: firefox-esr-l10n-mr
+Description-md5: bd58ad4aa8c67f243d47af63433cc1e8
+Description-en: Marathi language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Marathi.
+
+Package: firefox-esr-l10n-ms
+Description-md5: b706d54f54c4199e00861f23021ffff1
+Description-en: Malay language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Malay.
+
+Package: firefox-esr-l10n-nb-no
+Description-md5: 875fa701d40505084defa5afc8600aeb
+Description-en: Norwegian Bokmål (Norway) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Norwegian Bokmål (Norway).
+
+Package: firefox-esr-l10n-nl
+Description-md5: 7919d498f210c57c05c83c5b9361f40b
+Description-en: Dutch language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Dutch.
+
+Package: firefox-esr-l10n-nn-no
+Description-md5: dcb4d63727ae81d5830918342e7d4897
+Description-en: Norwegian Nynorsk (Norway) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Norwegian Nynorsk (Norway).
+
+Package: firefox-esr-l10n-or
+Description-md5: 538db7d58683bdafe51501b1f4165779
+Description-en: Oriya language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Oriya.
+
+Package: firefox-esr-l10n-pa-in
+Description-md5: 12953e3aaefbccc50948f71e44f17449
+Description-en: Panjabi (India) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Panjabi (India).
+
+Package: firefox-esr-l10n-pl
+Description-md5: e9801fca3e7fc04c053ce8beeea8ccaf
+Description-en: Polish language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Polish.
+
+Package: firefox-esr-l10n-pt-br
+Description-md5: be095d527e7a4922caaf485c0ce32717
+Description-en: Portuguese (Brazil) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Portuguese (Brazil).
+
+Package: firefox-esr-l10n-pt-pt
+Description-md5: c112a7cad4caddf8b10bd77b0a24ef41
+Description-en: Portuguese (Portugal) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Portuguese (Portugal).
+
+Package: firefox-esr-l10n-rm
+Description-md5: fdc1d706c10747112d1e114dd78800a8
+Description-en: Romansh language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Romansh.
+
+Package: firefox-esr-l10n-ro
+Description-md5: d8d1267b5730777d1784543c5d019b79
+Description-en: Romanian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Romanian.
+
+Package: firefox-esr-l10n-ru
+Description-md5: 81a5e2d34bc0b6f77b89b2e0876ef26e
+Description-en: Russian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Russian.
+
+Package: firefox-esr-l10n-si
+Description-md5: 00c75e50d870fbb579e09213362e0d62
+Description-en: Sinhala language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Sinhala.
+
+Package: firefox-esr-l10n-sk
+Description-md5: 9982e72b07fbc88a7640a5deda3d8d08
+Description-en: Slovak language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Slovak.
+
+Package: firefox-esr-l10n-sl
+Description-md5: 906885270ee826dbc6e0cde94503d5c2
+Description-en: Slovenian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Slovenian.
+
+Package: firefox-esr-l10n-son
+Description-md5: 79e87469939a044cda49cd3dcc26d9d9
+Description-en: Songhai languages language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Songhai languages.
+
+Package: firefox-esr-l10n-sq
+Description-md5: 7bcc4af584625cae2f12b4be7e68faaf
+Description-en: Albanian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Albanian.
+
+Package: firefox-esr-l10n-sr
+Description-md5: 36411d0bdd4bee135aaa0cb17a07dad1
+Description-en: Serbian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Serbian.
+
+Package: firefox-esr-l10n-sv-se
+Description-md5: 6de19c2795efba229042da380e69d931
+Description-en: Swedish (Sweden) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Swedish (Sweden).
+
+Package: firefox-esr-l10n-ta
+Description-md5: 1012f6f493f51739a6dada33a2a550f1
+Description-en: Tamil language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Tamil.
+
+Package: firefox-esr-l10n-te
+Description-md5: b7b4860bb367b766b2a1ab848ec2df4c
+Description-en: Telugu language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Telugu.
+
+Package: firefox-esr-l10n-th
+Description-md5: b9a1229e4164d95762f510aa47b06d63
+Description-en: Thai language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Thai.
+
+Package: firefox-esr-l10n-tr
+Description-md5: 78069753c5073c8e880c91bb3322b0c0
+Description-en: Turkish language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Turkish.
+
+Package: firefox-esr-l10n-uk
+Description-md5: f6b5ebceef2b190b19cf3a0742498225
+Description-en: Ukrainian language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Ukrainian.
+
+Package: firefox-esr-l10n-uz
+Description-md5: 3906a472d2035b9ebcb169f6f5088a95
+Description-en: Uzbek language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Uzbek.
+
+Package: firefox-esr-l10n-vi
+Description-md5: 890c381792b5053d91ccb56a986f8b70
+Description-en: Vietnamese language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Vietnamese.
+
+Package: firefox-esr-l10n-xh
+Description-md5: 8efaadb254622ba4ace972ffdbe4e176
+Description-en: Xhosa language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Xhosa.
+
+Package: firefox-esr-l10n-zh-cn
+Description-md5: 60c15e38f40b1bf1da8fd99b96a8796e
+Description-en: Chinese (China) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Chinese (China).
+
+Package: firefox-esr-l10n-zh-tw
+Description-md5: 5c9838adc8bf4fb11f3ffb4bef1c40c5
+Description-en: Chinese (Taiwan) language package for Firefox ESR
+ Firefox ESR is a powerful, extensible web browser with support for modern
+ web application technologies.
+ .
+ This package contains the localization of Firefox ESR in Chinese (Taiwan).
+
+Package: iceweasel
+Description-md5: ddd0bc4f6b2c336cc1c50357095555bf
+Description-en: Web browser based on Firefox - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-dbg
+Description-md5: 9ef32305fdc28ed2aa3b6470d8282fb9
+Description-en: Debugging symbols for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-dev
+Description-md5: 400c0006804ed6743c80e69bfd9207b9
+Description-en: Development files for the Gecko engine library - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ach
+Description-md5: 5de4e26d598258f83fc07fa457d7a3a0
+Description-en: Acoli language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-af
+Description-md5: d7db4c9207178f8ff964650376916d35
+Description-en: Afrikaans language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-all
+Description-md5: cff5a590544adcdebda89494291bf9d6
+Description-en: All language packages for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-an
+Description-md5: e9973e8ca3c24f237f89b4a784bad97d
+Description-en: Aragonese language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ar
+Description-md5: 7025093ac72fbb22ff1a5b02ce2ed173
+Description-en: Arabic language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-as
+Description-md5: c1ad7263809c684e9fab632b93ae399f
+Description-en: Assamese language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ast
+Description-md5: 25bd07c58f5edc8a9ce8f73a4cc9dfeb
+Description-en: Asturian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-az
+Description-md5: 03d6aa34451153d514c576d9498c2119
+Description-en: Azerbaijani language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-bg
+Description-md5: 24fca2c2094fcd3657634f263a77082c
+Description-en: Bulgarian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-bn-bd
+Description-md5: 09f313b303db42cf9f5492ae6a60c5f2
+Description-en: Bengali (Bangladesh) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-bn-in
+Description-md5: d6ea2352ba72953bccc439e203879a9d
+Description-en: Bengali (India) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-br
+Description-md5: 986bedb18e98bc14e9a21866a4c37bce
+Description-en: Breton language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-bs
+Description-md5: 8b00a6a95b338a0d5b2f24880a8c2351
+Description-en: Bosnian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ca
+Description-md5: 65d78422796d89dd665eb96570b86f68
+Description-en: Catalan language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-cak
+Description-md5: 7f559a20a5d0fafbb798b14c5c2ffe32
+Description-en: Kaqchikel language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-cs
+Description-md5: 5e04dcaca1b85a90dc21a9c2a47098d8
+Description-en: Czech language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-cy
+Description-md5: 817be795a3f3848d3b8190001f0571c1
+Description-en: Welsh language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-da
+Description-md5: 9ee3c8afa33ed219e73e8aa3f05d7ab1
+Description-en: Danish language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-de
+Description-md5: 7c343d2abdfdfa957e796a4133dd80f9
+Description-en: German language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-dsb
+Description-md5: 25f4b0783b5d8f45b427a08b4ceb7d24
+Description-en: Lower Sorbian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-el
+Description-md5: 6b9e6f34412aac3e9bc83bf9cf690ce5
+Description-en: Modern Greek language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-en-gb
+Description-md5: 768557bbb1e18ad953a2bf7ff7fea9a2
+Description-en: English (United Kingdom) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-en-za
+Description-md5: 465ec3b7bc85e1d3aab9c36359cf0730
+Description-en: English (South Africa) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-eo
+Description-md5: 4c90fa0de6eaa91e0cf01f07c6594d2f
+Description-en: Esperanto language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-es-ar
+Description-md5: 3e3c5cd89e5e4221f17bd2369827e78d
+Description-en: Spanish (Argentina) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-es-cl
+Description-md5: 79d03bd81ddcb40c6dbf2ea5bd31c09a
+Description-en: Spanish (Chile) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-es-es
+Description-md5: 375afa98d32c593ba63ded4a55cb969c
+Description-en: Spanish (Spain) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-es-mx
+Description-md5: ad6005ac41e2fe196c026fc5e92ec382
+Description-en: Spanish (Mexico) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-et
+Description-md5: 3ab5cfa6c39aaabf6d950aa278479b25
+Description-en: Estonian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-eu
+Description-md5: 122be83a1a2faa32ecc4e69a5916742f
+Description-en: Basque language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-fa
+Description-md5: da3a8f65d749bd93836a1dd3250ad6a4
+Description-en: Persian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ff
+Description-md5: 72b5d64859750d70b6b7eec2f0f0e415
+Description-en: Fulah language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-fi
+Description-md5: f736d616438256e3ae0068df605d8968
+Description-en: Finnish language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-fr
+Description-md5: ba6ddaa09b1b4a1007d4b65afda9ea37
+Description-en: French language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-fy-nl
+Description-md5: 29815a309b0c32fc1f1d5c0b89edf3cd
+Description-en: Western Frisian (Netherlands) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ga-ie
+Description-md5: f54cf54bef15364f91d0698027870dc5
+Description-en: Irish (Ireland) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-gd
+Description-md5: 429aca48512a031270759a18a1a6480d
+Description-en: Scottish Gaelic language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-gl
+Description-md5: e81cfd3586f8d00c9cc5b407eb3c9edf
+Description-en: Galician language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-gn
+Description-md5: c5f1560baf00a6b9a5f8f08538496744
+Description-en: Guarani language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-gu-in
+Description-md5: 0befb0a8aa2c71c16eaea2302499cee3
+Description-en: Gujarati (India) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-he
+Description-md5: ee564eafda4e9ce6ddfd9aae0eba8435
+Description-en: Hebrew language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-hi-in
+Description-md5: 2b11581510a85306278f1813c8047922
+Description-en: Hindi (India) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-hr
+Description-md5: d0f815659c4c839a5830de7faa53da2d
+Description-en: Croatian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-hsb
+Description-md5: 34dd535fc34eb21286c95322ccdc4357
+Description-en: Upper Sorbian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-hu
+Description-md5: 898ec7b4b7fc3b5b3e548abcd8f96693
+Description-en: Hungarian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-hy-am
+Description-md5: 518b2e53cc31b23ead9752732fe58a52
+Description-en: Armenian (Armenia) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-id
+Description-md5: 1151b5b4fe8a51eb8af915550c35dbea
+Description-en: Indonesian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-is
+Description-md5: f38943de06d0d373fee3e2c685755eb3
+Description-en: Icelandic language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-it
+Description-md5: 5f5907535db7461a1a4ce65267c2942c
+Description-en: Italian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ja
+Description-md5: be1a730b718faa794aadce4093e3e0e9
+Description-en: Japanese language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ka
+Description-md5: 7256997f48030fad2bf429203f9def5f
+Description-en: Georgian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-kab
+Description-md5: 38c8208ca5cd0fd05621cf29e81272ba
+Description-en: Kabyle language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-kk
+Description-md5: 2559d7c3d598d065381d75d9682a527c
+Description-en: Kazakh language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-km
+Description-md5: 94ad9a20183091ea8aa8735539a622d8
+Description-en: Central Khmer language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-kn
+Description-md5: 79f132a6b690954e72c6e33d7613b7a3
+Description-en: Kannada language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ko
+Description-md5: 7da73357a4aaba9571963ba566f4a980
+Description-en: Korean language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-lij
+Description-md5: f3444c2a0c3530b0231caf6c60fd977c
+Description-en: Ligurian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-lt
+Description-md5: 454159f1ae703e094f619b3fde0cb18d
+Description-en: Lithuanian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-lv
+Description-md5: ef864d67521d4f5832244ee77e3157a9
+Description-en: Latvian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-mai
+Description-md5: 9a342fe72079bbabae7bdeda21ba8447
+Description-en: Maithili language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-mk
+Description-md5: d9bf5aaa9809abd2ccfc06943b958a43
+Description-en: Macedonian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ml
+Description-md5: 518f935a45cdf7e78da34ecacb266749
+Description-en: Malayalam language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-mr
+Description-md5: 14702973776939a968c2557ec205dbf7
+Description-en: Marathi language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ms
+Description-md5: f35a16c421a7468f5f58011c9bf78294
+Description-en: Malay language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-nb-no
+Description-md5: a8b8b408b193c815aad09de034b0d9a8
+Description-en: Norwegian Bokmål (Norway) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-nl
+Description-md5: 7bb69c0d8460b3c528f9d804ee822526
+Description-en: Dutch language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-nn-no
+Description-md5: adaabdaa6831b1e71eb3fbc0cf11d3db
+Description-en: Norwegian Nynorsk (Norway) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-or
+Description-md5: 13c8623e2256090d2afa495b15f4ee4e
+Description-en: Oriya language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-pa-in
+Description-md5: 8d54703bbba4cdd6314b63966d991704
+Description-en: Panjabi (India) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-pl
+Description-md5: 7ef1fe8a6c45108303ae81854b04c5dc
+Description-en: Polish language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-pt-br
+Description-md5: 629e0d9b91e68000af3487dab72501a2
+Description-en: Portuguese (Brazil) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-pt-pt
+Description-md5: 61a6ecaaab1177e71eaf74028b1691cf
+Description-en: Portuguese (Portugal) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-rm
+Description-md5: 145f77469794a94706cae2e5acacb870
+Description-en: Romansh language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ro
+Description-md5: 67b35dcb5d27d663021ca9254f3da4f1
+Description-en: Romanian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ru
+Description-md5: 222e7e0f735955c447f2e310e0faf486
+Description-en: Russian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-si
+Description-md5: 9f9dad6b34d89d994c0f2d67371156c2
+Description-en: Sinhala language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-sk
+Description-md5: 4a810fe312cb1267e5e03202cf4a3535
+Description-en: Slovak language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-sl
+Description-md5: 2c8575a4e7d10b684ad6a16109dc1f2c
+Description-en: Slovenian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-son
+Description-md5: db3d7bfafe87a15c7843061605a7aec4
+Description-en: Songhai languages language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-sq
+Description-md5: 878ca23057c81d3724b368248062efeb
+Description-en: Albanian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-sr
+Description-md5: ced4b5d9fd5a15356d8f12944974ef2a
+Description-en: Serbian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-sv-se
+Description-md5: 21f8d8ca045dbcf1f0750d677f9f9471
+Description-en: Swedish (Sweden) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-ta
+Description-md5: c9c310de468182de6ff8e9d96846aad2
+Description-en: Tamil language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-te
+Description-md5: 53bd2fe7bdf18abcb708ef484246438f
+Description-en: Telugu language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-th
+Description-md5: 457b1f4601c537df48cce5b7a129b70e
+Description-en: Thai language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-tr
+Description-md5: 41d79acb053482a1da1936fcea55bf63
+Description-en: Turkish language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-uk
+Description-md5: 286a21c46b0e00c0319b2050f6f1ad51
+Description-en: Ukrainian language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-uz
+Description-md5: 34a892d481c3be8498b4e05ca9fa1be8
+Description-en: Uzbek language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-vi
+Description-md5: 71ddf30958f195e73d9c3740a7410f5f
+Description-en: Vietnamese language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-xh
+Description-md5: 9755efbdc7f69f99b2f1595448f3c73f
+Description-en: Xhosa language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-zh-cn
+Description-md5: ac2f7143dab418b3b8c67643d1fbc11f
+Description-en: Chinese (China) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: iceweasel-l10n-zh-tw
+Description-md5: 25f544b90985853ef4d79e798cfe8142
+Description-en: Chinese (Taiwan) language package for Iceweasel - Transitional package
+ This is a transitional package, it can be safely removed.
+
+Package: libxcursor-dev
+Description-md5: 6d945f0733e812c326a50fb6989e8cde
+Description-en: X cursor management library (development files)
+ Header files and a static version of the X cursor management library are
+ provided by this package.
+ .
+ See the libxcursor1 package for further information.
+
+Package: libxcursor1
+Description-md5: 7c341e5f21e9bb3cee6338076e0f3458
+Description-en: X cursor management library
+ Xcursor is a simple library designed to help locate and load cursors for the
+ X Window System.  Cursors can be loaded from files or memory and can exist in
+ several sizes; the library automatically picks the best size.  When using
+ images loaded from files, Xcursor prefers to use the Render extension's
+ CreateCursor request for rendering cursors.  Where the Render extension is
+ not supported, Xcursor maps the cursor image to a standard X cursor and uses
+ the core X protocol CreateCursor request.
+
+Package: libxcursor1-dbg
+Description-md5: 0a2e02d2365b4344848180495e4e79b5
+Description-en: X cursor management library (unstripped)
+ This package provides an unstripped shared object with debugging symbols,
+ useful to provide a backtrace with symbol names in a debugger; this
+ facilitates interpretation of core dumps, and aids in finding logic errors in
+ programs using this library (or the library itself).  The library is
+ installed in /usr/lib/debug and can be used by placing that directory in the
+ LD_LIBRARY_PATH environment variable when the code to be debugged is
+ executed.  Non-programmers will likely have little use for this package.
+ .
+ Non-programmers will likely have little use for this package.  See the
+ libxcursor1 package for further information.
+
+Package: linux-compiler-gcc-4.8-arm
+Description-md5: 8dc84d288a935263f31f6fd09656012c
+Description-en: Compiler for Linux on ARM (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on armel and armhf.
+
+Package: linux-compiler-gcc-4.8-s390
+Description-md5: 22c19ac8c8c2c06c5771c48a1151fbe0
+Description-en: Compiler for Linux on IBM zSeries (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on s390 and s390x.
+
+Package: linux-compiler-gcc-4.8-x86
+Description-md5: 07390d44d60e795ce75e75f74dcfb371
+Description-en: Compiler for Linux on x86 (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on amd64, i386 and x32.
+
+Package: linux-doc-3.16
+Description-md5: 3b8f12a01f78ef516ba5e9c9d5d0bf0f
+Description-en: Linux kernel specific documentation for version 3.16
+ This package provides the various README files and HTML documentation for
+ the Linux kernel version 3.16.  Plenty of information, including the
+ descriptions of various kernel subsystems, filesystems, driver-specific
+ notes and the like.  Consult the file
+ /usr/share/doc/linux-doc-3.16/Documentation/00-INDEX for the detailed
+ description of the contents.
+
+Package: linux-headers-3.16.0-4-4kc-malta
+Description-md5: f45ae50974968d45093bfb633268df75
+Description-en: Header files for Linux 3.16.0-4-4kc-malta
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-4kc-malta, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-4kc-malta, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-4kc-malta package.
+
+Package: linux-headers-3.16.0-4-586
+Description-md5: 038d049157664ccfb23ff13d53e51149
+Description-en: Header files for Linux 3.16.0-4-586
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-586, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-586, and can be used for building modules
+ that load into the kernel provided by the linux-image-3.16.0-4-586
+ package.
+
+Package: linux-headers-3.16.0-4-5kc-malta
+Description-md5: c30bf0c151aad35272b9878f7aa020cb
+Description-en: Header files for Linux 3.16.0-4-5kc-malta
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-5kc-malta, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-5kc-malta, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-5kc-malta package.
+
+Package: linux-headers-3.16.0-4-686-pae
+Description-md5: 193dbd60055cae192f016c0e8a0f9e67
+Description-en: Header files for Linux 3.16.0-4-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-686-pae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-686-pae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-686-pae package.
+
+Package: linux-headers-3.16.0-4-all
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-amd64
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-arm64
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-armel
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-armhf
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-i386
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-mips
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-mipsel
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-powerpc
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-ppc64el
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-s390x
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-amd64
+Description-md5: cbf21fb1a9f722193df5ce406738257f
+Description-en: Header files for Linux 3.16.0-4-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-amd64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-amd64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-amd64 package.
+
+Package: linux-headers-3.16.0-4-arm64
+Description-md5: 5da2535b2a5a524da9c12e857183a9a9
+Description-en: Header files for Linux 3.16.0-4-arm64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-arm64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-arm64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-arm64 package.
+
+Package: linux-headers-3.16.0-4-armmp
+Description-md5: d9f6ec3df651806371f4925ebca91ad0
+Description-en: Header files for Linux 3.16.0-4-armmp
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-armmp, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-armmp, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-armmp package.
+
+Package: linux-headers-3.16.0-4-armmp-lpae
+Description-md5: 3cc7941e37bef8da82b7a7ef8a8ec54f
+Description-en: Header files for Linux 3.16.0-4-armmp-lpae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-armmp-lpae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-armmp-lpae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-armmp-lpae package.
+
+Package: linux-headers-3.16.0-4-common
+Description-md5: 658653ebe375fb448948108320535714
+Description-en: Common header files for Linux 3.16.0-4
+ This package provides the architecture-specific common kernel header files
+ for Linux kernel version 3.16.0-4, generally used for building out-of-tree
+ kernel modules.  To obtain a complete set of headers you also need to
+ install the linux-headers-3.16.0-4-(flavour) package, matching the flavour
+ of the kernel you intend the build for.
+
+Package: linux-headers-3.16.0-4-ixp4xx
+Description-md5: cb0c912df98311b7ab01e79c94285aff
+Description-en: Header files for Linux 3.16.0-4-ixp4xx
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-ixp4xx, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-ixp4xx, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-ixp4xx package.
+
+Package: linux-headers-3.16.0-4-kirkwood
+Description-md5: a50182adca7e5bfc70e2ff1e7ae659b5
+Description-en: Header files for Linux 3.16.0-4-kirkwood
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-kirkwood, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-kirkwood, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-kirkwood package.
+
+Package: linux-headers-3.16.0-4-loongson-2e
+Description-md5: 4c92a7c2a2408a1ba32d74e63ddd2811
+Description-en: Header files for Linux 3.16.0-4-loongson-2e
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-2e, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-2e, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-2e package.
+
+Package: linux-headers-3.16.0-4-loongson-2f
+Description-md5: 5b84e0eda543c263176224de287f2f68
+Description-en: Header files for Linux 3.16.0-4-loongson-2f
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-2f, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-2f, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-2f package.
+
+Package: linux-headers-3.16.0-4-loongson-3
+Description-md5: 8383770b393cf41f3676fd3005b4899d
+Description-en: Header files for Linux 3.16.0-4-loongson-3
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-3, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-3, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-3 package.
+
+Package: linux-headers-3.16.0-4-octeon
+Description-md5: 6929692804ee6d8110722cc243c403cc
+Description-en: Header files for Linux 3.16.0-4-octeon
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-octeon, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-octeon, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-octeon package.
+
+Package: linux-headers-3.16.0-4-orion5x
+Description-md5: 64485c59b3b3c69ea76545c22503c286
+Description-en: Header files for Linux 3.16.0-4-orion5x
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-orion5x, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-orion5x, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-orion5x package.
+
+Package: linux-headers-3.16.0-4-powerpc
+Description-md5: 6c3620824c152fff92576b815b8bfccc
+Description-en: Header files for Linux 3.16.0-4-powerpc
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc package.
+
+Package: linux-headers-3.16.0-4-powerpc-smp
+Description-md5: 8c65bf3b5e871622875caa9877ff3d70
+Description-en: Header files for Linux 3.16.0-4-powerpc-smp
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc-smp, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc-smp, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc-smp package.
+
+Package: linux-headers-3.16.0-4-powerpc64
+Description-md5: 237fbe715d5ba5359a3607acb238d67e
+Description-en: Header files for Linux 3.16.0-4-powerpc64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc64 package.
+
+Package: linux-headers-3.16.0-4-powerpc64le
+Description-md5: e7700dc3140b4d9ef93cd268b316fdef
+Description-en: Header files for Linux 3.16.0-4-powerpc64le
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc64le, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc64le, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc64le package.
+
+Package: linux-headers-3.16.0-4-r4k-ip22
+Description-md5: f9cc45f089f1e625212bf8eaa7265874
+Description-en: Header files for Linux 3.16.0-4-r4k-ip22
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-r4k-ip22, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-r4k-ip22, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-r4k-ip22 package.
+
+Package: linux-headers-3.16.0-4-r5k-ip32
+Description-md5: 4e14f9db8e15d9e58ae7066ceaffb985
+Description-en: Header files for Linux 3.16.0-4-r5k-ip32
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-r5k-ip32, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-r5k-ip32, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-r5k-ip32 package.
+
+Package: linux-headers-3.16.0-4-s390x
+Description-md5: f03e28dd6e1d485b4ded2d3035e6f9a4
+Description-en: Header files for Linux 3.16.0-4-s390x
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-s390x, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-s390x, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-s390x package.
+
+Package: linux-headers-3.16.0-4-sb1-bcm91250a
+Description-md5: f3ea3d78541f9ff9879198ee10a2e930
+Description-en: Header files for Linux 3.16.0-4-sb1-bcm91250a
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-sb1-bcm91250a, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-sb1-bcm91250a, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-3.16.0-4-sb1-bcm91250a package.
+
+Package: linux-headers-3.16.0-4-versatile
+Description-md5: 2102bc1d51cd6fae8dde406cc8fe6b89
+Description-en: Header files for Linux 3.16.0-4-versatile
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-versatile, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-versatile, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-versatile package.
+
+Package: linux-headers-3.16.0-5-all
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-5-all-s390x
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-5-common
+Description-md5: 288dd5949431d7738fccc23daa165586
+Description-en: Common header files for Linux 3.16.0-5
+ This package provides the architecture-specific common kernel header files
+ for Linux kernel version 3.16.0-5, generally used for building out-of-tree
+ kernel modules.  To obtain a complete set of headers you also need to
+ install the linux-headers-3.16.0-5-(flavour) package, matching the flavour
+ of the kernel you intend the build for.
+
+Package: linux-headers-3.16.0-5-s390x
+Description-md5: 8e7ab282edc564c6b53ece03bc35e0a7
+Description-en: Header files for Linux 3.16.0-5-s390x
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-5-s390x, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-5-s390x, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-5-s390x package.
+
+Package: linux-image-3.16.0-4-4kc-malta
+Description-md5: e68074499cdc6e063c3172877468b9df
+Description-en: Linux 3.16 for MIPS Malta
+ The Linux kernel 3.16 and modules for use on MIPS Malta boards.
+
+Package: linux-image-3.16.0-4-586
+Description-md5: 39aa963faaf178850466bf90be79557a
+Description-en: Linux 3.16 for older PCs
+ The Linux kernel 3.16 and modules for use on PCs with a single processor
+ not supporting PAE.
+ .
+ This kernel is not suitable for SMP (multi-processor, multi-core or
+ hyper-threaded) systems.
+
+Package: linux-image-3.16.0-4-5kc-malta
+Description-md5: e289f41954353d5effca4e22d5c85d3d
+Description-en: Linux 3.16 for MIPS Malta (64-bit)
+ The Linux kernel 3.16 and modules for use on MIPS Malta boards (64-bit).
+
+Package: linux-image-3.16.0-4-686-pae
+Description-md5: b2c3f405aab9f0fe07863b318891f277
+Description-en: Linux 3.16 for modern PCs
+ The Linux kernel 3.16 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension). This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-3.16.0-4-686-pae-dbg
+Description-md5: 899bffe1e11e51ee02a114d7643c73b8
+Description-en: Debugging symbols for Linux 3.16.0-4-686-pae
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-686-pae.
+
+Package: linux-image-3.16.0-4-amd64
+Description-md5: eb8d19ca58e771c137b96a59fda87ca7
+Description-en: Linux 3.16 for 64-bit PCs
+ The Linux kernel 3.16 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-3.16.0-4-amd64-dbg
+Description-md5: 8c26dca1771f49da6036819b6a89483e
+Description-en: Debugging symbols for Linux 3.16.0-4-amd64
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-amd64.
+
+Package: linux-image-3.16.0-4-arm64
+Description-md5: 7b3ed18b55aea8682505cb9950480464
+Description-en: Linux 3.16 for 64-bit ARMv8 machines
+ The Linux kernel 3.16 and modules for use on 64-bit ARMv8 machines.
+
+Package: linux-image-3.16.0-4-arm64-dbg
+Description-md5: d7560e8c53796405ea9bf1e60d6ca3f2
+Description-en: Debugging symbols for Linux 3.16.0-4-arm64
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-arm64.
+
+Package: linux-image-3.16.0-4-armmp
+Description-md5: 882c916e228148335e32d3d79caa28af
+Description-en: Linux 3.16 for ARMv7 multiplatform compatible SoCs
+ The Linux kernel 3.16 and modules for use on ARMv7 multiplatform kernel.
+ See https://wiki.debian.org/DebianKernel/ARMMP for details of supported
+ platforms.
+
+Package: linux-image-3.16.0-4-armmp-lpae
+Description-md5: e8e0956813ff8a0dc90b57d3074ff08e
+Description-en: Linux 3.16 for ARMv7 multiplatform compatible SoCs supporting LPAE
+ The Linux kernel 3.16 and modules for use on ARMv7 multiplatform kernel
+ supporting LPAE. See https://wiki.debian.org/DebianKernel/ARMMP for
+ details of supported platforms..
+
+Package: linux-image-3.16.0-4-ixp4xx
+Description-md5: 7bf869a0bcdf7391712b3ec151e0dd58
+Description-en: Linux 3.16 for IXP4xx
+ The Linux kernel 3.16 and modules for use on IXP4xx based systems (Linksys
+ NSLU2, etc).
+
+Package: linux-image-3.16.0-4-kirkwood
+Description-md5: 92df4a3cb6d64137c1f22b49079d2a8e
+Description-en: Linux 3.16 for Marvell Kirkwood
+ The Linux kernel 3.16 and modules for use on Marvell Kirkwood based
+ systems (SheevaPlug, QNAP TS-119/TS-219, etc).
+
+Package: linux-image-3.16.0-4-loongson-2e
+Description-md5: 2c738b6f2b9547592d26407235e6451f
+Description-en: Linux 3.16 for Loongson 2E
+ The Linux kernel 3.16 and modules for use on Lemote Loongson 2E systems.
+
+Package: linux-image-3.16.0-4-loongson-2f
+Description-md5: 000fd1f8a27d9dda977cd6735a46ccb7
+Description-en: Linux 3.16 for Loongson 2F
+ The Linux kernel 3.16 and modules for use on Lemote Loongson 2F systems.
+
+Package: linux-image-3.16.0-4-loongson-3
+Description-md5: 33224a2fd492a3433492466793151d7f
+Description-en: Linux 3.16 for Loongson 3A/3B
+ The Linux kernel 3.16 and modules for use on Loongson 3A or 3B based
+ systems (e.g.  from Loongson or Lemote).
+
+Package: linux-image-3.16.0-4-octeon
+Description-md5: 27cd8ad82be84f33a26a5fd6631d1c78
+Description-en: Linux 3.16 for Octeon
+ The Linux kernel 3.16 and modules for use on Cavium Networks Octeon.
+
+Package: linux-image-3.16.0-4-orion5x
+Description-md5: 14cfaca7ca5f026a06657fba2ea54328
+Description-en: Linux 3.16 for Marvell Orion
+ The Linux kernel 3.16 and modules for use on Marvell Orion 5181, 5182 and
+ 5281 based systems (QNAP TS-109/TS-209, etc).
+
+Package: linux-image-3.16.0-4-powerpc
+Description-md5: 93685b6002fba3f26cb1f49943830ff0
+Description-en: Linux 3.16 for uniprocessor 32-bit PowerPC
+ The Linux kernel 3.16 and modules for use on uniprocessor 32-bit PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc-smp
+Description-md5: 55aa0f176bfeb4808b78c3c64489c1f8
+Description-en: Linux 3.16 for multiprocessor 32-bit PowerPC
+ The Linux kernel 3.16 and modules for use on multiprocessor 32-bit
+ PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc64
+Description-md5: 3caf0bb10008865e96292447f3f20c5a
+Description-en: Linux 3.16 for 64-bit PowerPC
+ The Linux kernel 3.16 and modules for use on 64-bit PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc64le
+Description-md5: df7449a61cfd4158a67dc5d591b96699
+Description-en: Linux 3.16 for Little-endian 64-bit PowerPC
+ The Linux kernel 3.16 and modules for use on Little-endian 64-bit PowerPC.
+
+Package: linux-image-3.16.0-4-r4k-ip22
+Description-md5: b763d1f47bbc329218ef6ac7f2449671
+Description-en: Linux 3.16 for SGI IP22
+ The Linux kernel 3.16 and modules for use on SGI IP22 systems (Indy,
+ Indigo2).
+
+Package: linux-image-3.16.0-4-r5k-ip32
+Description-md5: 6a8bace5f8d814cf9383205c21fdb414
+Description-en: Linux 3.16 for SGI IP32
+ The Linux kernel 3.16 and modules for use on SGI IP32 systems (O2).
+
+Package: linux-image-3.16.0-4-s390x
+Description-md5: 784bfc4cf1440e05938476fa4a3c6b88
+Description-en: Linux 3.16 for IBM zSeries
+ The Linux kernel 3.16 and modules for use on IBM zSeries.
+
+Package: linux-image-3.16.0-4-s390x-dbg
+Description-md5: ae763f220bf23e175e9788eefa81fcb4
+Description-en: Debugging symbols for Linux 3.16.0-4-s390x
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-s390x.
+
+Package: linux-image-3.16.0-4-sb1-bcm91250a
+Description-md5: 16c6348c257ef28cd1e8e1df7c104af7
+Description-en: Linux 3.16 for BCM91250A
+ The Linux kernel 3.16 and modules for use on Broadcom BCM91250A systems
+ (aka SWARM).
+
+Package: linux-image-3.16.0-4-versatile
+Description-md5: c7363dd82378caf8a0cfe3929eab5f6d
+Description-en: Linux 3.16 for Versatile
+ The Linux kernel 3.16 and modules for use on Versatile systems (PB, AB,
+ Qemu).
+
+Package: linux-image-3.16.0-5-s390x
+Description-md5: 784bfc4cf1440e05938476fa4a3c6b88
+Description-en: Linux 3.16 for IBM zSeries
+ The Linux kernel 3.16 and modules for use on IBM zSeries.
+
+Package: linux-image-3.16.0-5-s390x-dbg
+Description-md5: 58bf5e8d766433dd39a0a06038adf212
+Description-en: Debugging symbols for Linux 3.16.0-5-s390x
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-5-s390x.
+
+Package: linux-libc-dev
+Description-md5: f310daf8fb891639ee6eeeb4020a7c13
+Description-en: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+
+Package: linux-manual-3.16
+Description-md5: 276b5788a7e4d667f1c2a94e2ec4e952
+Description-en: Linux kernel API manual pages for version 3.16
+ This package provides the Kernel Hacker's Guide in the form of manual
+ pages, describing the kernel API functions.  They are installed into
+ section 9 of the manual.
+ .
+ As the files containing manual pages for different kernel versions are
+ installed in the same location, only one linux-manual package may be
+ installed at a time.  The linux-doc package containing the documentation
+ in other formats is free from such restriction.
+
+Package: linux-source-3.16
+Description-md5: 150fd1fc695786c4a4a7506f77975e02
+Description-en: Linux kernel source for version 3.16 with Debian patches
+ This package provides source code for the Linux kernel version 3.16. This
+ source closely tracks official Linux kernel releases.  Debian's
+ modifications to that source consist of security fixes, bug fixes, and
+ features that have already been (or are believed to be) accepted by the
+ upstream maintainers.
+
+Package: linux-support-3.16.0-4
+Description-md5: 89975a6239acce6c9e6fbde2f804f100
+Description-en: Support files for Linux 3.16
+ This package provides support files for the Linux kernel build, e.g.
+ scripts to handle ABI information and for generation of build system meta
+ data.
+
+Package: linux-support-3.16.0-5
+Description-md5: 89975a6239acce6c9e6fbde2f804f100
+Description-en: Support files for Linux 3.16
+ This package provides support files for the Linux kernel build, e.g.
+ scripts to handle ABI information and for generation of build system meta
+ data.
+
+Package: xen-linux-system-3.16.0-4-amd64
+Description-md5: 120400f93ebde659304f3ab95ba77fc7
+Description-en: Xen system with Linux 3.16 on 64-bit PCs (meta-package)
+ This package depends on the binary Linux image and hypervisors.
+
+Package: libafsauthent1
+Description-md5: a0feedf62f2fa5d341102110cd7a1d2b
+Description-en: AFS distributed file system runtime library (authentication)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing AFS client
+ authentication and token management.
+
+Package: libafsrpc1
+Description-md5: 7523708cbcd58ca51ccd0bb131f7807a
+Description-en: AFS distributed file system runtime library (RPC layer)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing the Rx protocol and
+ other AFS RPC functionality.
+
+Package: libkopenafs1
+Description-md5: 0f99201d0fae91ddb99faa36485b802d
+Description-en: AFS distributed file system runtime library (PAGs)
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the shared library implementing an interface to
+ manipulating AFS process authentication groups (PAGs).  It provides the
+ a subset of the interface provided by the Heimdal libkafs library.
+
+Package: libopenafs-dev
+Description-md5: b6f316eebfa1cc038bb9afed528de9fc
+Description-en: AFS distributed filesystem development libraries
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides static development libraries and headers
+ needed to compile AFS applications.
+
+Package: libpam-openafs-kaserver
+Description-md5: dccbdd7a0350f2d0910ffa2a1c209e26
+Description-en: AFS distributed filesystem kaserver PAM module
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides a PAM module for existing  sites using the AFS
+ kaserver for authentication.  New sites should use a Kerberos v5
+ implementation, a Kerberos v5 PAM module such as libpam-krb5, and
+ libpam-afs-session.
+
+Package: openafs-client
+Description-md5: 2d948f9c8a661ee8bc5d31e3f8cd9962
+Description-en: AFS distributed filesystem client support
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides basic client support to mount and manipulate
+ AFS.  If your site uses Kerberos v5 authentication for AFS, you will also
+ want to install openafs-krb5.
+
+Package: openafs-dbg
+Description-md5: 170cf4fa45f627423cec477ca98780d5
+Description-en: AFS distributed filesystem debugging information
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package contains the debugging information for the OpenAFS
+ server binaries (the openafs-fileserver and openafs-dbserver packages).
+
+Package: openafs-dbserver
+Description-md5: 900518e8d991aca7a295eb31861c8d53
+Description-en: AFS distributed filesystem database server
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides AFS database server binaries.  It should be
+ installed on the servers that will act as volume location and
+ protection servers.
+
+Package: openafs-doc
+Description-md5: dfed3aa1cb0c1548af7ed6d6191c122f
+Description-en: AFS distributed filesystem documentation
+ AFS is a distributed filesystem allowing cross-platform sharing of files
+ among multiple computers.  Facilities are provided for access control,
+ authentication, backup and administrative management.
+ .
+ This package contains the OpenAFS user's and reference manuals, some
+ protocol documentation, and other OpenAFS documentation.
+
+Package: openafs-fileserver
+Description-md5: 6f505856f48ff78dd8989e4474f85129
+Description-en: AFS distributed filesystem file server
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the AFS fileserver binaries.  It should be
+ installed on any machine that will export files into AFS.
+
+Package: openafs-fuse
+Description-md5: 5b93a5360d9c82b3edf7a7962b3ba594
+Description-en: AFS distributed file system experimental FUSE client
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides an experimental FUSE implementation of the AFS
+ client as afsd.fuse.  This currently only provides read-only access to
+ AFS, doesn't work with all of the normal AFS client programs, and must be
+ started manually, but may be of interest in situations where read-only
+ access is sufficient and the kernel module cannot be built.
+
+Package: openafs-kpasswd
+Description-md5: f74d50639a69caee2da2fc932e76bd6b
+Description-en: AFS distributed filesystem old password changing
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides kpasswd and kas, utilities needed by the OpenAFS
+ kaserver to create users and change passwords.  Only install this package
+ if you are already using kaserver; generally you should not install this
+ package for new cells or for cells using Kerberos v5.
+
+Package: openafs-krb5
+Description-md5: f601778f8cbfe2c4f9aa8e886d6408dc
+Description-en: AFS distributed filesystem Kerberos 5 integration
+ AFS is a distributed filesystem allowing cross-platform sharing of files
+ among multiple computers.  Facilities are provided for access control,
+ authentication, backup and administrative management.
+ .
+ This package provides aklog, a utility for authenticating to AFS using
+ Kerberos 5.  It also provides asetkey, a utility to set AFS server keys
+ from a Kerberos keytab, and ka-forwarder, a utility to forward kaserver
+ requests to a KDC using fakeka.
+
+Package: openafs-modules-dkms
+Description-md5: 959c8c641c8855622b3e660d47f8f210
+Description-en: AFS distributed filesystem kernel module DKMS source
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package contains the source for the AFS kernel module, packaged with
+ appropriate configuration for DKMS to build new modules dynamically.
+
+Package: openafs-modules-source
+Description-md5: 01e11a95da0fec3f0bbe15d0a3897346
+Description-en: AFS distributed filesystem kernel module source
+ AFS is a distributed filesystem allowing cross-platform sharing of
+ files among multiple computers.  Facilities are provided for access
+ control, authentication, backup and administrative management.
+ .
+ This package provides the source to the AFS kernel module in a form
+ suitable for use by module-assistant or kernel-package.
+
+Package: optipng
+Description-md5: 5e7a553e9d19800926e7d1d2e6a7ff8a
+Description-en: advanced PNG (Portable Network Graphics) optimizer
+ OptiPNG is a PNG optimizer that recompresses the image files to a smaller
+ size. It losslessly reduces the bit depth, the color type and the color
+ palette of the image, runs a suite of compression methods and strategies,
+ and selects the compression parameters that yield the smallest output file.
+ It also recognizes several external file formats like BMP, GIF, TIFF and
+ PNM (PBM, PGM, PPM).
+
+Package: otrs
+Description-md5: 82b96b585b49727738ceb801d1535372
+Description-en: Open Ticket Request System (OTRS 3)
+ OTRS is an Open source Ticket Request System (also well known as
+ trouble ticket system) with many features to manage customer telephone
+ calls and e-mails. The system is built to allow your support, sales,
+ pre-sales, billing, internal IT, helpdesk, etc. department to react
+ quickly to inbound inquiries. For a detailed documentation see package
+ otrs-doc-en or otrs-doc-de.
+ .
+ This package depends on the otrs2 3.x series package.
+
+Package: otrs2
+Description-md5: abcb3082ea76eb43cf1f66e050ff92ab
+Description-en: Open Ticket Request System
+ OTRS is an Open source Ticket Request System (also well known as
+ trouble ticket system) with many features to manage customer telephone
+ calls and e-mails. The system is built to allow your support, sales,
+ pre-sales, billing, internal IT, helpdesk, etc. department to react
+ quickly to inbound inquiries. For a detailed documentation see package
+ otrs-doc-en or otrs-doc-de.
+ .
+ This package ships version 3 of OTRS.
+
+Package: rsync
+Description-md5: 3bf40f318d2abfed74fa472aaff46d5f
+Description-en: fast, versatile, remote (and local) file-copying tool
+ rsync is a fast and versatile file-copying tool which can copy locally
+ and to/from a remote host. It offers many options to control its behavior,
+ and its remote-update protocol can minimize network traffic to make
+ transferring updates between machines fast and efficient.
+ .
+ It is widely used for backups and mirroring and as an improved copy
+ command for everyday use.
+ .
+ This package provides both the rsync command line tool and optional
+ daemon functionality.
+
+Package: sensible-utils
+Description-md5: 762f81736340b99921c41ac6bb08e2b1
+Description-en: Utilities for sensible alternative selection
+ This package provides a number of small utilities which are used
+ by programs to sensibly select and spawn an appropriate browser,
+ editor, or pager.
+ .
+ The specific utilities included are: sensible-browser sensible-editor
+ sensible-pager
+
+Package: tor
+Description-md5: 9106e8e4b3843ebd532ba2b89615a92e
+Description-en: anonymizing overlay network for TCP
+ Tor is a connection-based low-latency anonymous communication system.
+ .
+ Clients choose a source-routed path through a set of relays, and
+ negotiate a "virtual circuit" through the network, in which each relay
+ knows its predecessor and successor, but no others. Traffic flowing
+ down the circuit is decrypted at each relay, which reveals the
+ downstream relay.
+ .
+ Basically, Tor provides a distributed network of relays. Users bounce
+ their TCP streams (web traffic, ftp, ssh, etc) around the relays, and
+ recipients, observers, and even the relays themselves have difficulty
+ learning which users connected to which destinations.
+ .
+ This package enables only a Tor client by default, but it can also be
+ configured as a relay and/or a hidden service easily.
+ .
+ Client applications can use the Tor network by connecting to the local
+ socks proxy interface provided by your Tor instance. If the application
+ itself does not come with socks support, you can use a socks client
+ such as torsocks.
+ .
+ Note that Tor does no protocol cleaning on application traffic. There
+ is a danger that application protocols and associated programs can be
+ induced to reveal information about the user. Tor depends on Torbutton
+ and similar protocol cleaners to solve this problem. For best
+ protection when web surfing, the Tor Project recommends that you use
+ the Tor Browser Bundle, a standalone tarball that includes static
+ builds of Tor, Torbutton, and a modified Firefox that is patched to fix
+ a variety of privacy bugs.
+
+Package: tor-dbg
+Description-md5: e8a546d3317d374b2fe6f8a245b9e653
+Description-en: debugging symbols for Tor
+ This package provides the debugging symbols for Tor, The Onion Router.
+ Those symbols allow your debugger to assign names to your backtraces, which
+ makes it somewhat easier to interpret core dumps.
+
+Package: tor-geoipdb
+Description-md5: d0b50c9cd91157b8c85856fd55e26d14
+Description-en: GeoIP database for Tor
+ This package provides a GeoIP database for Tor, i.e. it maps IPv4 addresses
+ to countries.
+ .
+ Bridge relays (special Tor relays that aren't listed in the main Tor
+ directory) use this information to report which countries they see
+ connections from.  These statistics enable the Tor network operators to
+ learn when certain countries start blocking access to bridges.
+ .
+ Clients can also use this to learn what country each relay is in, so
+ Tor controllers like arm or Vidalia can use it, or if they want to
+ configure path selection preferences.
+
+Package: libwireshark-data
+Description-md5: c97c84748e457d000a383c101c74e67e
+Description-en: network packet dissection library -- data files
+ The libwireshark library provides the network packet dissection services
+ developed by the Wireshark project.
+ .
+ This package contains the platform independent files.
+
+Package: libwireshark-dev
+Description-md5: 25ccc1e5a9f0de13127d7669433e7838
+Description-en: network packet dissection library -- development files
+ The "libwireshark" library provides the network packet dissection services
+ developed by the Wireshark project.
+ .
+ This package contains the static library and the C header files that are
+ needed for applications to use libwireshark services.
+
+Package: libwireshark5
+Description-md5: ab8eca3dff7b66974ed95f1142899d51
+Description-en: network packet dissection library -- shared library
+ The libwireshark library provides the network packet dissection services
+ developed by the Wireshark project.
+
+Package: libwiretap-dev
+Description-md5: a4b3626aeba85265e850e80dbf470c9e
+Description-en: network packet capture library -- development files
+ Wiretap, part of the Wireshark project, is a library that allows one to
+ read and write several packet capture file formats.
+ .
+ Supported formats are:
+  * Libpcap
+  * Sniffer
+  * LANalyzer
+  * Network Monitor
+  * "snoop"
+  * "iptrace"
+  * Sniffer Basic (NetXRay)/Windows Sniffer Pro
+  * RADCOM WAN/LAN Analyzers
+  * Lucent/Ascend access products
+  * HP-UX nettl
+  * Toshiba ISDN Router
+  * ISDN4BSD "i4btrace" utility
+  * Cisco Secure Intrusion Detection System iplogging facility
+  * pppd logs (pppdump-format files)
+  * VMS TCPTRACE
+  * DBS Etherwatch (text format)
+  * Catapult DCT2000 (.out files)
+ .
+ Wiretap's shortcomings are: no filter capability and no support for packet
+ capture.
+ .
+ This package contains the static library and the C header files.
+
+Package: libwiretap4
+Description-md5: c47b22d9617f547351ca36c045296943
+Description-en: network packet capture library -- shared library
+ Wiretap, part of the Wireshark project, is a library that allows one to
+ read and write several packet capture file formats.
+ .
+ Supported formats are:
+  * Libpcap
+  * Sniffer
+  * LANalyzer
+  * Network Monitor
+  * "snoop"
+  * "iptrace"
+  * Sniffer Basic (NetXRay)/Windows Sniffer Pro
+  * RADCOM WAN/LAN Analyzers
+  * Lucent/Ascend access products
+  * HP-UX nettl
+  * Toshiba ISDN Router
+  * ISDN4BSD "i4btrace" utility
+  * Cisco Secure Intrusion Detection System iplogging facility
+  * pppd logs (pppdump-format files)
+  * VMS TCPTRACE
+  * DBS Etherwatch (text format)
+  * Catapult DCT2000 (.out files)
+ .
+ Wiretap's shortcomings are: no filter capability and no support for packet
+ capture.
+
+Package: libwsutil-dev
+Description-md5: 0d6fc051e02d84e44b837724c5326251
+Description-en: network packet dissection utilities library -- shared library
+ The libwsutil library provides utility functions for libwireshark5.
+ .
+ This package contains the static library and the C header files that are
+ needed for applications to use the libwsutil library.
+
+Package: libwsutil4
+Description-md5: 2f664b3dfd9df1309167288c7933a20b
+Description-en: network packet dissection utilities library -- shared library
+ The libwsutil library provides utility functions for libwireshark5.
+
+Package: tshark
+Description-md5: 17aa46d351c7c1a5aa0e49637765c939
+Description-en: network traffic analyzer - console version
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides the console version of wireshark, named
+ "tshark".
+
+Package: wireshark
+Description-md5: 205b792665989c3882b556e37286b93b
+Description-en: network traffic analyzer - GTK+ version
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides the GTK+ version of wireshark.
+
+Package: wireshark-common
+Description-md5: 179c480769d1d5484751aefc4cde59a3
+Description-en: network traffic analyzer - common files
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides files common to both wireshark (the GTK+ version)
+ and tshark (the console version).
+
+Package: wireshark-dbg
+Description-md5: ba38ed4dbd6ce38fc32ddb8b86b6a122
+Description-en: network traffic analyzer - debug symbols
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package contains stripped debugging symbols for all Wireshark
+ programs and libraries.
+
+Package: wireshark-dev
+Description-md5: 7a344f6feb13aa3b18ede52debae4fe2
+Description-en: network traffic analyzer - development tools
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides idl2wrs and other files necessary for developing
+ new packet dissectors.
+
+Package: wireshark-doc
+Description-md5: ed8b1896882405b928131b74c90e0b57
+Description-en: network traffic analyzer - documentation
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package contains Wireshark User's guide, Wireshark Developer's Guide
+ and the Lua Reference.
+
+Package: wireshark-qt
+Description-md5: 166c087ec9a2e8c170932a94326deade
+Description-en: network traffic analyzer - Qt version
+ Wireshark is a network "sniffer" - a tool that captures and analyzes
+ packets off the wire. Wireshark can decode too many protocols to list
+ here.
+ .
+ This package provides the Qt version of wireshark.
+

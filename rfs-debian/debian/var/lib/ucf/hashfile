@@ -1,0 +1,4 @@
+847e4be727d25354ba5e8baa3ebb3b87  /etc/idmapd.conf
+ddcb1fbb90a14ff9850f22eed0127a10  /etc/default/nfs-common
+c4b5a82046e49d2e6a590e49d165f095  /etc/exports
+fa4e0530df26499ca3940353fbfbf241  /etc/default/nfs-kernel-server
