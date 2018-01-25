@@ -1,0 +1,22 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+ifconfig eth0 up
+ifconfig eth0 192.168.1.200
+
+if [ -f "/usr/local/src/openssh-server_7.4p1-10+deb9u1_armhf.deb" ]; then  
+	dpkg -i /usr/local/src/openssh-server_7.4p1-10+deb9u1_armhf.deb
+	rm -rf /usr/local/src/openssh-server_7.4p1-10+deb9u1_armhf.deb
+fi
+
+exit 0

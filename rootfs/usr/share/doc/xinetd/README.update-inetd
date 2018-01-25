@@ -1,0 +1,72 @@
+(Lack of) update-inetd functionality with xinetd
+------------------------------------------------
+
+The update-inetd script is used by Debian packages which rely on inetd.  The
+purpose of the script is to update /etc/inetd.conf so that the network
+service(s) provided by the package in question are added or enabled.
+
+Beginning with 1:2.3.11-2, xinetd is shipped with an optional inetd.conf
+compatibility mode. That is, xinetd reads xinetd.conf, then inetd.conf and
+adds services accordingly. So, when this mode is used, and that a service
+is added by update-inetd to inetd.conf, xinetd can be reloaded, and the
+service becomes available through xinetd, without an xinetd.conf
+modification.
+
+To enable the inetd.conf compatibility mode, you can edit
+/etc/default/xinetd and add -inetd_compat or -inetd_ipv6 to XINETD_OPTS
+
+However, you will want to put some services' configurations in xinetd.conf to
+customize them.
+
+Since the update-inetd script currently does not modify /etc/xinetd.conf,
+instead telling the user to do this manually, there are two ways of converting
+your inetd.conf file into xinetd.conf file : either with the xconv.pl script,
+or with the itox program, both provided by xinetd.
+
+
+ * Using itox
+   
+   The following command will output the appropriate xinetd.conf entry for
+   this service, so you can add the output to xinetd.conf yourself:
+
+   	echo "line from /etc/inetd.conf" | itox
+
+   However, if the service uses a daemon such as /usr/sbin/tcpd, then this
+   should be specified using the "-daemon_dir" option.  This example:
+
+	echo "smtp stream tcp nowait root /usr/sbin/tcpd /usr/sbin/in.smtpd" \
+	 | itox -daemon_dir /usr/sbin/tcpd
+
+   would produce this:
+
+	service smtp
+	{
+	        socket_type     = stream
+	        protocol        = tcp
+	        wait            = no
+	        user            = root
+	        server          = /usr/sbin/in.smtpd
+	}
+
+ * Using xconv.pl
+
+   Mostly everything said above, regarding itox, also applies to xconv.pl -
+   the only difference is that xconv.pl is a Perl script, a bit newer than
+   than itox, and made exactly for the purpose of converting whole
+   inetd.conf file into xinetd.conf file. It's best to invoke it this way:
+
+	xconv.pl < /etc/inetd.conf > /etc/xinetd.conf
+
+   This will read the whole inetd.conf file and create full xinetd.conf
+   file.
+
+You should also read the inetd.conf and xinetd.conf manual pages, and this will
+hopefully make more sense.
+
+Work is currently being done on a new update-inetd which will automatically
+take care of everything, but that hasn't been implemented just yet.
+
+
+ -- Norbert Veber <nveber@debian.org>  Tue, 9 June 1998 22:18:25 -0500
+    Josip Rodin <jrodin@jagor.srce.hr>  Wed, 20 Oct 1999 20:56:07 +0200
+    Thomas Seyrat <tomasera@debian.org>  Fri, 15 Aug 2003 17:39:58 +0200

@@ -1,0 +1,17 @@
+README.Debian for xinetd
+========================
+
+  xinetd in debian is supposed to work with -inetd_compat enabled (you can
+  tweak that in /etc/default/xinetd).
+
+  Package maintainers that support xinetd in addition to inetd, will drop
+  files in /etc/xinetd.d/<service> _and_ add entries in /etc/inetd.conf,
+  enabling them using update-inetd.
+
+  If both an xinetd service configuration id and an entry in /etc/inetd.conf
+  match, the xinetd one will hide the inetd.conf one, even if disabled. This
+  trick is built to simplify the logic in update-inetd, and let the
+  administrators only touch xinetd configuration and don't have
+  /etc/inetd.conf mess with that they changed behind their back.
+
+ -- Pierre Habouzit <madcoder@debian.org>  Wed, 28 Nov 2007 11:55:48 +0100
