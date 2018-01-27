@@ -20,8 +20,8 @@ KeyRegenerationInterval 3600
 ServerKeyBits 1024
 
 # Logging
-#SyslogFacility AUTH
-#LogLevel INFO
+SyslogFacility AUTH
+LogLevel INFO
 
 # Authentication:
 LoginGraceTime 120
